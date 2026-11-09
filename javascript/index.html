@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4 — JavaScript</title>
+</head>
+<body>
+    <!-- Nombre y apellidos -->
+    <h1>Práctica 4 de Rodrigo Delgado Romero</h1>
+
+    <!-- ===== A1. Mi tarjeta ===== -->
+    <div id="tarjeta">
+        <h2>Mi tarjeta</h2>
+        <p id="saludo">Cargando...</p>
+    </div>
+
+    <!-- ===== A2. Lista de la compra ===== -->
+    <div>
+        <h2>Lista de la compra</h2>
+        <input type="text" id="cajaTexto">
+        <input type="button" value="Añadir" onclick="agregar()">
+        <ul id="lista"></ul>
+    </div>
+
+    <!-- ===== A3. Modo noche y modo día ===== -->
+    <div>
+        <h2>Modo noche / día</h2>
+        <input type="button" value="Fondo oscuro" onclick="oscuro()">
+        <input type="button" value="Fondo claro" onclick="claro()">
+
+    <!-- ===== A4. Colores de la tarjeta ===== -->
+    <div>
+        <h2>Colores de la tarjeta</h2>
+        <input type="button" value="Verde" onclick="colorTarjeta('green')">
+        <input type="button" value="Rojo" onclick="colorTarjeta('red')">
+        <input type="button" value="Azul" onclick="colorTarjeta('blue')">
+    </div>
+
+    <!-- ===== A5. Botón que saluda ===== -->
+    <div>
+        <h2>Botón que saluda</h2>
+        <input type="button" id="botonSaludo" value="Salúdame" onclick="saludar()">
+    </div>
+
+    <!-- El script va al final del body -->
+    <script src="js/script.js"></script>
+</body>
+</html>
