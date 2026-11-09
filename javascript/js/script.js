@@ -1,6 +1,6 @@
 // =========================================================
-//  Práctica 4 — JavaScript
-//  Nombre y apellidos: Rodrigo Delgado Romero
+//  Práctica 4 — JavaScript                                =
+//  Nombre y apellidos: Rodrigo Delgado Romero             =
 // =========================================================
 
 // ===== A1. Mi tarjeta =====
