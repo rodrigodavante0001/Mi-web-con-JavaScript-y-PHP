@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 4 — JavaScript</title>
 </head>
 <body>
@@ -18,16 +17,19 @@
     <!-- ===== A2. Lista de la compra ===== -->
     <div>
         <h2>Lista de la compra</h2>
-        <input type="text" id="cajaTexto">
-        <input type="button" value="Añadir" onclick="agregar()">
+        <input type="text" id="producto" placeholder="Escribe un producto">
+        <input type="button" value="Añadir" onclick="anadir()">
+
         <ul id="lista"></ul>
     </div>
 
     <!-- ===== A3. Modo noche y modo día ===== -->
     <div>
         <h2>Modo noche / día</h2>
-        <input type="button" value="Fondo oscuro" onclick="oscuro()">
-        <input type="button" value="Fondo claro" onclick="claro()">
+        <input type="button" value="Modo noche" onclick="modoNoche()">
+        <input type="button" value="Modo día" onclick="modoDia()">
+        <p id="modo">Modo día activado</p>
+    </div>
 
     <!-- ===== A4. Colores de la tarjeta ===== -->
     <div>
@@ -43,7 +45,6 @@
         <input type="button" id="botonSaludo" value="Salúdame" onclick="saludar()">
     </div>
 
-    <!-- El script va al final del body -->
     <script src="js/script.js"></script>
 </body>
 </html>
