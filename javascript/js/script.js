@@ -3,13 +3,14 @@
 //  Nombre y apellidos: Rodrigo Delgado Romero             =
 // =========================================================
 
-// ===== A1. Mi tarjeta =====
+// A1. Mi tarjeta
 document.getElementById("saludo").innerHTML = "Hola, me llamo Rodrigo Delgado Romero y estudio 2º SMR";
 document.getElementById("tarjeta").style.color = "white";
 document.getElementById("tarjeta").style.backgroundColor = "navy";
 
 
-// ===== A2. Lista de la compra =====
+//A2. Lista de la compra 
+
 function anadir() {
     // Busca en la página el cuadro de texto y lo guarda en la variable caja
     var caja = document.getElementById("producto");
@@ -31,7 +32,7 @@ function anadir() {
 }
 
 
-// ===== A3. Modo noche y modo día =====
+// A3. Modo noche y modo día
 function modoNoche() {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
@@ -45,13 +46,13 @@ function modoDia() {
 }
 
 
-// ===== A4. Colores de la tarjeta =====
+// A4. Colores de la tarjeta
 function colorTarjeta(color) {
     document.getElementById("tarjeta").style.backgroundColor = color;
 }
 
 
-// ===== A5. Botón que saluda =====
+// A5. Botón que saluda
 function saludar() {
     alert("Hola, soy Rodrigo Delgado Romero");
     document.getElementById("botonSaludo").style.backgroundColor = "orange";
